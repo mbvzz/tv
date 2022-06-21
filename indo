@@ -1,6 +1,3 @@
-#EXTM3U url-tvg=https://bit.ly/3itZsSm
-#EXTM3U url-tvg="https://link.zozotv.xyz/epgtvku.xml, https://iptv-org.github.io/epg/guides/id/vidio.com.epg.xml, https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml, https://macan.tv/xmltv.php?username=epg&password=epg"  refresh="3600"
-
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml" refresh="3600"
 #EXTM3U x-url-tvg="https://iptv-org.github.io/epg/guides/id-en/mncvision.id.epg.xml"
 
@@ -15,6 +12,15 @@
 
 #EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/id/beinsports.com.epg.xml" refresh="3600"
 #EXTM3U x-url-tvg="https://iptv-org.github.io/epg/guides/id/beinsports.com.epg.xml"
+
+#EXTM3U url-tvg="https://link.zozotv.xyz/epgtvku.xml refresh="3600"
+#EXTM3U x-url-tvg="https://link.zozotv.xyz/epgtvku.xml
+
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml refresh="3600"
+#EXTM3U x-url-tvg="https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml
+
+#EXTM3U url-tvg="https://macan.tv/xmltv.php?username=epg&password=epg" refresh="3600"
+#EXTM3U x-url-tvg="https://macan.tv/xmltv.php?username=epg&password=epg"
 
 
 @@@@@@@ TV NASIONAL INDONESIA @@@@@@@
@@ -410,7 +416,7 @@ http://rr1.dens.tv/h/h15/index.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Pengetahuan Umum",Opo Jare Eson
-https://dl.dropboxusercontent.com/s/bhpfob3xyin2ygm/VID_20220516082049.mp4?dl=0.m3u8
+https://.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wTsw-FydW/bisnet-adventure-4k.png" group-title="Pengetahuan Umum", Bisnet Adventure 4K
@@ -501,7 +507,7 @@ http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=f846bc691110108f73cb55c2
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Anak² & Kartun",Opo Jare Eson
-https://dl.dropboxusercontent.com/s/bhpfob3xyin2ygm/VID_20220516082049.mp4?dl=0.m3u8
+https://.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -580,7 +586,7 @@ https://legochannel-roku.amagi.tv/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Anime",Opo Jare Eson
-https://dl.dropboxusercontent.com/s/bhpfob3xyin2ygm/VID_20220516082049.mp4?dl=0.m3u8
+https://.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -599,7 +605,7 @@ http://rr1.dens.tv/h/h02/01.m3u8?chname=ANIPLUS_HD
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Movies",Opo Jare Eson
-https://dl.dropboxusercontent.com/s/bhpfob3xyin2ygm/VID_20220516082049.mp4?dl=0.m3u8
+https://.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -760,18 +766,31 @@ http://210.210.155.35:80/uq2663/h/h19/01.m3u8
 https://liveanevia.mncnow.id/live/eds/SetOne/sa_dash_vmx/SetOne.mpd
 
 
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:-1 group-title="Movies" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_14.png",Indonesia Movie Channels
-https://liveanevia.mncnow.id/live/eds/IndonesiaMovieChannels-HD/sa_dash_vmx/IndonesiaMovieChannels-HD.mpd
-
-
 #EXTINF:-1 group-title="Movies" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWVuTAMNzbT60LlOhrcnry8uMh0F4XirwFNQ&usqp=CAU",STAR CHINESE MOVIES
 http://kunyak.my.id/sok/starchinesemovies.m3u8
 
 
 #EXTINF:-1 group-title="Movies" tvg-logo="https://upload.wikimedia.org/wikipedia/en/5/59/Star_Chinese_Channel_logo_2016.png",STAR CHINESE CHANNEL
 http://kunyak.my.id/sok/starchinesechannel.m3u8
+
+
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
+#EXTINF:-1 group-title="Movies" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_14.png",IMC
+https://liveanevia.mncnow.id/live/eds/IndonesiaMovieChannels-HD/sa_dash_vmx/IndonesiaMovieChannels-HD.mpd
+
+
+#EXTINF:-1 group-title="TRIAL CHANNEL" ",FLIK
+http://corner-tv.web.id:25461/play/liBOOS4rWAyRrwwdiqbIx1dCIgvK3o6qr0CPrlb1ixs/ts
+
+#EXTINF:-1 group-title="TRIAL CHANNEL" ,&FLIX
+http://corner-tv.web.id:25461/play/liBOOS4rWAyRrwwdiqbIxwoOJRTRs1b-dcG84gXliYY/ts
+
+#EXTINF:-1 group-title="TRIAL CHANNEL" ,&PRIVE
+http://corner-tv.web.id:25461/play/liBOOS4rWAyRrwwdiqbIxxu7tDN6_QSLXL0K0efNIBw/ts
+
+#EXTINF:-1 group-title="TRIAL CHANNEL" tvg-logo="https://imgur.com/uV8cQ94.png",Sony Pix  2 HD
+http://103.55.144.46/hls/sonypixhd.m3u8
 
 
 
@@ -782,7 +801,7 @@ http://kunyak.my.id/sok/starchinesechannel.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Musik",Opo Jare Eson
-https://dl.dropboxusercontent.com/s/bhpfob3xyin2ygm/VID_20220516082049.mp4?dl=0.m3u8
+https://.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -916,7 +935,7 @@ https://5fd5567570c0e.streamlock.net/theretrochannel/stream/playlist.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Sports",Opo Jare Eson
-https://dl.dropboxusercontent.com/s/bhpfob3xyin2ygm/VID_20220516082049.mp4?dl=0.m3u8
+https://.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -1026,8 +1045,8 @@ https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
 @@@@@@@ SPORTS 1 @@@@@@@
 
 
-#EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Sports 1 (Channel ini sewaktu² bisa mati",Opo Jare Eson
-https://dl.dropboxusercontent.com/s/bhpfob3xyin2ygm/VID_20220516082049.mp4?dl=0.m3u8
+#EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Sports 1 (TRIAL)",Opo Jare Eson
+https://.m3u8
 
 
 #EXTINF:-1 group-title="Sports 1 (Channel ini sewaktu² bisa mati" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVnkbXt769CPKnH4Q6F7rEqsUCrI3xoXT_7A&usqp=CAU", SuperSport Maximo
@@ -1141,8 +1160,8 @@ http://ch.riff.id@client-iptvmag.club:8080/per-paulen/qcbDQtgQUx/375?
 @@@@@@@ SPORTS 2 @@@@@@@
 
 
-#EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Sports 2 (Channel ini sewaktu² bisa mati)",Opo Jare Eson
-https://dl.dropboxusercontent.com/s/bhpfob3xyin2ygm/VID_20220516082049.mp4?dl=0.m3u8
+#EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Sports 2 (TRIAL)",Opo Jare Eson
+https://.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK5ZwUMnDB8ASYFzI8FXxtYn-nLnaUTcpNkA&usqp=CAU" group-title="Sports 2 (Channel ini sewaktu² bisa mati)", ASTRO ARENA 1
@@ -1189,8 +1208,8 @@ https://d14a5mi0m64mw7.cloudfront.net/out/v1/8a240d2e8a64453da6288810ede90a60/in
 @@@@@@@ BEIN SPORTS @@@@@@@
 
 
-#EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Bein Sports ARAB (Channel ini sewaktu² bisa mati)",Opo Jare Eson
-https://dl.dropboxusercontent.com/s/bhpfob3xyin2ygm/VID_20220516082049.mp4?dl=0.m3u8
+#EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Bein Sports ARAB (TRIAL)",Opo Jare Eson
+https://.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://padelmagazine.fr/wp-content/uploads/2021/11/Bein-Sports-logo-2021.jpg.webp" group-title="Bein Sports ARAB (Channel ini sewaktu² bisa mati)",Bein Sports Premium 1
