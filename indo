@@ -22,8 +22,14 @@
 #EXTM3U url-tvg="https://macan.tv/xmltv.php?username=epg&password=epg" refresh="3600"
 #EXTM3U x-url-tvg="https://macan.tv/xmltv.php?username=epg&password=epg"
 
+#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/my/astro.com.my.epg.xml, https://iptv-org.github.io/epg/guides/id/vidio.com.epg.xml,username=epg&password=epg" refresh="3600"
 
-@@@@@@@ TV NASIONAL INDONESIA @@@@@@@
+
+
+<----------------------------------- TV NASIONAL INDONESIA --------------------------------------->
+
+#EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="TV Nasional Indonesia",Opo Jare Eson
+https://https://www.dropbox.com/s/nz9r21632zxta4p/YA%20LAL%20WATHON%20%28Shubbanul%20Wathon%29.mp4?dl=0.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -66,16 +72,14 @@ http://210.210.155.35/qwr9ew/s/s03/01.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:-1 group-title="TV Nasional Indonesia" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_87.png",Trans TV
-https://liveanevia.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
+#EXTINF:0 tvg-id="TransTV.id" tvg-name="Trans TV" tvg-url="https://yamcode.com/raw/transtv-guide" tvg-logo="https://cdn.kibrispdr.org/data/logo-trans-tv-png-2.png" group-title="Indonesia Channel",Trans TV
+https://liveanevia.mncnow.id/live/eds/TransTV/sa_dash_vmx/TransTV.mpd
 
 
-#EXTINF:-1 group-title="TV Nasional Indonesia" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_110.png",Trans 7
-http://rr.dens.tv/h/h11/index.m3u8
-
-
-#EXTINF:-1 group-title="TV Nasional Indonesia" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_110.png",Trans 7
-https://video.detik.com/trans7/smil:trans7.smil/playlist.m3u8
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
+#EXTINF:0 tvg-id="="Trans7.id" tvg-name="Trans 7" tvg-url="https://yamcode.com/raw/trans7-guide" tvg-logo="http://dusktill.masuk.web.id/img/trans7.png" group-title="Indonesia Channel",Trans 7
+https://liveanevia.mncnow.id/live/eds/Trans7/sa_dash_vmx/Trans7.mpd
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -178,7 +182,10 @@ http://103.16.220.69:1935/golive/livestream/playlist.m3u8
 
 
 
-@@@@@@@ BERITA @@@@@@@
+<----------------------------------- BERITA --------------------------------------->
+
+#EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Berita",Opo Jare Eson
+https://https://www.dropbox.com/s/nz9r21632zxta4p/YA%20LAL%20WATHON%20%28Shubbanul%20Wathon%29.mp4?dl=0.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -273,7 +280,10 @@ https://liveanevia.mncnow.id/live/eds/TRTWorld/sa_dash_vmx/TRTWorld.mpd
 
 
 
-@@@@@@@ HIBURAN & GAYA HIDUP @@@@@@@
+<----------------------------------- HIBURAN & GAYA HIDUP --------------------------------------->
+
+#EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Hiburan & Gaya Hidup",Opo Jare Eson
+https://https://www.dropbox.com/s/nz9r21632zxta4p/YA%20LAL%20WATHON%20%28Shubbanul%20Wathon%29.mp4?dl=0.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -407,16 +417,24 @@ http://playlist.urfan.web.id/uq2663/h/h22/01.m3u8
 #EXTINF:0 tvg-id="" tvg-name="" group-title="Hiburan & Gaya Hidup" tvg-url="" tvg-logo="https://rubbyguntara.github.io/src/img/Rock_Extreme.png",Rock Extreme
 http://rr1.dens.tv/h/h15/index.m3u8
 
+#EXTINF:-1 tvg-id="dunialain" tvg-logo="https://i.postimg.cc/sXBP9BFs/logo-dunialain-big.png" group-title="Hiburan & Gaya Hidup",DUNIA LAIN 
+https://cubmu.superzap.xyz:8279/dunialain/playlist.m3u8
+
+#EXTINF:-1 tvg-id="eatgo" tvg-logo="https://i.postimg.cc/13p5v7w3/logo-eatgo-big1.png" group-title="Hiburan & Gaya Hidup",Eat&GO 
+https://cubmu.superzap.xyz:8279/eatgo/playlist.m3u8
 
 
 
 
 
-@@@@@@@ PENGETAHUAN UMUM @@@@@@@
+
+
+
+<----------------------------------- PENGETAHUAN UMUM --------------------------------------->
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Pengetahuan Umum",Opo Jare Eson
-https://.m3u8
+https://https://www.dropbox.com/s/nz9r21632zxta4p/YA%20LAL%20WATHON%20%28Shubbanul%20Wathon%29.mp4?dl=0.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://i.postimg.cc/wTsw-FydW/bisnet-adventure-4k.png" group-title="Pengetahuan Umum", Bisnet Adventure 4K
@@ -503,11 +521,11 @@ http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=f846bc691110108f73cb55c2
 
 
 
-@@@@@@@ ANAK2 & KARTUN @@@@@@@
+<----------------------------------- ANAK2 & KARTUN --------------------------------------->
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Anak² & Kartun",Opo Jare Eson
-https://.m3u8
+https://www.dropbox.com/s/nz9r21632zxta4p/YA%20LAL%20WATHON%20%28Shubbanul%20Wathon%29.mp4?dl=0.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -577,16 +595,44 @@ http://210.210.155.37/x6bnqe/s/s81/01.m3u8?app_type=web&userid=4rr0w&tkn=bl4ck&c
 #EXTINF:0 tvg-id="ext" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXOITYpX3j7YdrBcudY1WUaIfFHcpG0fHbDg&usqp=CAU'' group-title="Anak² & Kartun",LEGO CHANNEL
 https://legochannel-roku.amagi.tv/playlist.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/qMVqtVS2/10460165-ico.png"" group-title="Anak² & Kartun",DISNEY JUNIOR 
+http://103.153.39.36:8000/play/a020
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/rpFK81bb/10460867-ico.png" group-title="Anak² & Kartun",DISNEY CHANNEL 
+http://103.153.39.36:8000/play/a01y
+
+#EXTINF:-1 tvg-id="dreamworks" tvg-logo="https://i.postimg.cc/W3qp3X79/logo-dreamworks-big1.png" group-title="Anak² & Kartun",DreamWorks 
+https://vips-livecdn.fptplay.net/hda3/dreamworks_vhls.smil/chunklist_b5000000.m3u8
+
+
+#EXTINF:-1 tvg-id="duniaanak" tvg-logo="https://i.postimg.cc/PJmtbJ9Y/logo-duniaanak-big1.png" group-title="Anak² & Kartun",Dunia Anak 
+https://cubmu.superzap.xyz:8279/duniaanak/playlist.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/dQ902pT3/EBS-KIDS.png" group-title="Anak² & Kartun",Ebs Kids
+http://ebsonair.ebs.co.kr:1935/ebsutablet500k/tablet500k/chunklist_w2046056257.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/ncScZ78B/KURIAKOS-KIDS.png" group-title="Anak² & Kartun",Kuriakos Kids
+http://c2.manasat.com:1935/kkids/kkids3/FluxusTV.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/KcN8qwJ9/LALE.png" group-title="Anak² & Kartun",Lale
+http://stream.atr.ua/lale//live/index.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/xTxT7m5S/MENTARI-TV.png" group-title="Anak² & Kartun",Mentari TV HD
+https://iptv.mwafa.net/vidio/8237/index.m3u8?token=1999
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/P5Lfqxhc/AKARAM-KIDS.png" group-title="Anak² & Kartun",Akaram Kidz
+http://akaram.zecast.net/akaram-live/akaramkidz/index.m3u8
 
 
 
 
 
-@@@@@@@ ANIME @@@@@@@
+<----------------------------------- ANIME --------------------------------------->
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Anime",Opo Jare Eson
-https://.m3u8
+https://www.dropbox.com/s/nz9r21632zxta4p/YA%20LAL%20WATHON%20%28Shubbanul%20Wathon%29.mp4?dl=0.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -601,11 +647,11 @@ http://rr1.dens.tv/h/h02/01.m3u8?chname=ANIPLUS_HD
 
 
 
-@@@@@@@ MOVIES @@@@@@@
+<----------------------------------- MOVIES --------------------------------------->
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Movies",Opo Jare Eson
-https://.m3u8
+https://www.dropbox.com/s/nz9r21632zxta4p/YA%20LAL%20WATHON%20%28Shubbanul%20Wathon%29.mp4?dl=0.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -780,6 +826,9 @@ http://kunyak.my.id/sok/starchinesechannel.m3u8
 https://liveanevia.mncnow.id/live/eds/IndonesiaMovieChannels-HD/sa_dash_vmx/IndonesiaMovieChannels-HD.mpd
 
 
+<----------------------------------- Trial Channel --------------------------------------->
+
+
 #EXTINF:-1 group-title="TRIAL CHANNEL" ",FLIK
 http://corner-tv.web.id:25461/play/liBOOS4rWAyRrwwdiqbIx1dCIgvK3o6qr0CPrlb1ixs/ts
 
@@ -797,11 +846,11 @@ http://103.55.144.46/hls/sonypixhd.m3u8
 
 
 
-@@@@@@@ MUSIC @@@@@@@
+<----------------------------------- MUSIC Channel --------------------------------------->
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Musik",Opo Jare Eson
-https://.m3u8
+https://www.dropbox.com/s/nz9r21632zxta4p/YA%20LAL%20WATHON%20%28Shubbanul%20Wathon%29.mp4?dl=0.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -931,11 +980,11 @@ https://5fd5567570c0e.streamlock.net/theretrochannel/stream/playlist.m3u8
 
 
 
-@@@@@@@ SPORTS @@@@@@@
+<----------------------------------- SPORTS Channel --------------------------------------->
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Sports",Opo Jare Eson
-https://.m3u8
+https://www.dropbox.com/s/nz9r21632zxta4p/YA%20LAL%20WATHON%20%28Shubbanul%20Wathon%29.mp4?dl=0.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -1042,11 +1091,11 @@ https://d2p372oxiwmcn1.cloudfront.net/hls/main.m3u8
 
 
 
-@@@@@@@ SPORTS 1 @@@@@@@
+<----------------------------------- SPORTS 1 --------------------------------------->
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Sports 1 (TRIAL)",Opo Jare Eson
-https://.m3u8
+https://www.dropbox.com/s/nz9r21632zxta4p/YA%20LAL%20WATHON%20%28Shubbanul%20Wathon%29.mp4?dl=0.m3u8
 
 
 #EXTINF:-1 group-title="Sports 1 (TRIAL)" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVnkbXt769CPKnH4Q6F7rEqsUCrI3xoXT_7A&usqp=CAU", SuperSport Maximo
@@ -1157,11 +1206,10 @@ http://ch.riff.id@client-iptvmag.club:8080/per-paulen/qcbDQtgQUx/375?
 
 
 
-@@@@@@@ SPORTS 2 @@@@@@@
-
+<----------------------------------- SPORTS 2 --------------------------------------->
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Sports 2 (TRIAL)",Opo Jare Eson
-https://.m3u8
+https://www.dropbox.com/s/nz9r21632zxta4p/YA%20LAL%20WATHON%20%28Shubbanul%20Wathon%29.mp4?dl=0.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTK5ZwUMnDB8ASYFzI8FXxtYn-nLnaUTcpNkA&usqp=CAU" group-title="Sports 2 (TRIAL)", ASTRO ARENA 1
@@ -1205,11 +1253,11 @@ https://d14a5mi0m64mw7.cloudfront.net/out/v1/8a240d2e8a64453da6288810ede90a60/in
 
 
 
-@@@@@@@ BEIN SPORTS @@@@@@@
+<----------------------------------- BEIN SPORTS --------------------------------------->
 
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="Bein Sports ARAB (TRIAL)",Opo Jare Eson
-https://.m3u8
+https://www.dropbox.com/s/nz9r21632zxta4p/YA%20LAL%20WATHON%20%28Shubbanul%20Wathon%29.mp4?dl=0.m3u8
 
 
 #EXTINF:-1 tvg-logo="https://padelmagazine.fr/wp-content/uploads/2021/11/Bein-Sports-logo-2021.jpg.webp" group-title="Bein Sports ARAB (TRIAL)",Bein Sports Premium 1
@@ -1326,7 +1374,7 @@ http://gplus.live:8080/168573780756/N9UFR0P64W/84478
 
 
 
-@@@@@@@ GAMING @@@@@@@
+<----------------------------------- GAMING Channel --------------------------------------->
 
 
 #EXTINF:-1 group-title="Gaming" tvg-logo="https://thumbs2.imgbox.com/3a/1b/Xs8EBvzo_t.jpeg",Dunia Games
@@ -1387,10 +1435,10 @@ https://bit.ly/3MZ583U
 
 
 
-@@@@@@# RELIJI @@@@@@@
+<----------------------------------- RELIGI --------------------------------------->
 
 
-#EXTINF:-0 tvg-name="TV" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRyrT6YRQorjN1fzvG3p742qy0jyXbl6QgCHP74fA=s900-c-k-c0x00ffffff-no-rj" group-title="Reliji", TV MUI
+#EXTINF:-0 tvg-name="TV" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLRyrT6YRQorjN1fzvG3p742qy0jyXbl6QgCHP74fA=s900-c-k-c0x00ffffff-no-rj" group-title="Religi", TV MUI
 http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=cb70ab375662576bd1ac5aaf16b3fca4dfdded94c48ea6229c48edefa9ec1c9f
 
 
@@ -1398,195 +1446,210 @@ http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c476
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:-1 group-title="Reliji" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ewtn_us.png",EWTN
+#EXTINF:-1 group-title="Religi" tvg-logo="https://www.lyngsat.com/logo/tv/ee/ewtn_us.png",EWTN
 https://liveanevia.mncnow.id/live/eds/EWTN/sa_dash_vmx/EWTN.mpd
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:-1 group-title="Reliji" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_91.png",LIFE
+#EXTINF:-1 group-title="Religi" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_91.png",LIFE
 https://liveanevia.mncnow.id/live/eds/Life/sa_dash_vmx/Life.mpd
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:-1 group-title="Reliji" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tv-mu-id.png",TV Mu
+#EXTINF:-1 group-title="Religi" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tv-mu-id.png",TV Mu
 https://liveanevia.mncnow.id/live/eds/TVMuhammadiyah/sa_dash_vmx/TVMuhammadiyah.mpd
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:-1 group-title="Reliji" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_92.png",Muslim TV
+#EXTINF:-1 group-title="Religi" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_92.png",Muslim TV
 https://liveanevia.mncnow.id/live/eds/MNCMuslim/sa_dash_vmx/MNCMuslim.mpd
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:-1 group-title="Reliji" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_93.png",Quran TV
+#EXTINF:-1 group-title="Religi" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_93.png",Quran TV
 https://liveanevia.mncnow.id/live/eds/AlQuranAlKareem/sa_dash_vmx/AlQuranAlKareem.mpd
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:-1 group-title="Reliji" tvg-logo="https://www.lyngsat.com/logo/tv/rr/reformed_21_id.png",Reformed 21
+#EXTINF:-1 group-title="Religi" tvg-logo="https://www.lyngsat.com/logo/tv/rr/reformed_21_id.png",Reformed 21
 https://liveanevia.mncnow.id/live/eds/Reformed21/sa_dash_vmx/Reformed21.mpd
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:-1 group-title="Reliji" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_105.png",Tawaf TV
+#EXTINF:-1 group-title="Religi" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_105.png",Tawaf TV
 https://liveanevia.mncnow.id/live/eds/TawafTV/sa_dash_vmx/TawafTV.mpd
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:-1 group-title="Reliji" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tv9_surabaya_id.png",TV 9 Nusantara
+#EXTINF:-1 group-title="Religi" tvg-logo="https://www.lyngsat.com/logo/tv/tt/tv9_surabaya_id.png",TV 9 Nusantara
 https://liveanevia.mncnow.id/live/eds/TV9/sa_dash_vmx/TV9.mpd
 
 
-#EXTINF:-1  group-title="Reliji",Ufa TV
+#EXTINF:-1  group-title="Religi",Ufa TV
 https://h1.intechmedia.net/intech/ch27.m3u8
 
 
-#EXTINF:-1  group-title="Reliji",Bina Madani TV
+#EXTINF:-1  group-title="Religi",Bina Madani TV
 https://h1.intechmedia.net/intech/ch20.m3u8
 
 
-#EXTINF:-1  group-title="Reliji",RadioKita TV
+#EXTINF:-1  group-title="Religi",RadioKita TV
 https://h1.intechmedia.net/intech/ch16.m3u8
 
 
-#EXTINF:-1  group-title="Reliji",Ahsan TV
+#EXTINF:-1  group-title="Religi",Ahsan TV
 https://h1.intechmedia.net/intech/ch4.m3u8
 
 
-#EXTINF:-1  group-title="Reliji",Muadz TV
+#EXTINF:-1  group-title="Religi",Muadz TV
 https://h1.intechmedia.net/intech/ch5.m3u8
 
 
-#EXTINF:-1  group-title="Reliji",Al Bahjah TV
+#EXTINF:-1  group-title="Religi",Al Bahjah TV
 https://h1.intechmedia.net/intech/ch64.m3u8
 
 
-#EXTINF:-100 group-title="Reliji" tvg-logo="https://www.rasyaad.tv/wp-content/uploads/2020/07/logo-rasyaad.png",RASYAAD TV
+#EXTINF:-100 group-title="Religi" tvg-logo="https://www.rasyaad.tv/wp-content/uploads/2020/07/logo-rasyaad.png",RASYAAD TV
 https://h1.intechmedia.net/intech/ch6.m3u8
 
 
-#EXTINF:-100 group-title="Reliji" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/medstv.jpg",MEDS TV ACEH
+#EXTINF:-100 group-title="Religi" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/medstv.jpg",MEDS TV ACEH
 https://h1.intechmedia.net/intech/ch23.m3u8
 
 
-#EXTINF:-100 group-title="Reliji" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/ufa tv.png",UFA TV
+#EXTINF:-100 group-title="Religi" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/ufa tv.png",UFA TV
 https://h1.intechmedia.net/intech/ch27.m3u8
 
 
-#EXTINF:-100 group-title="Reliji" tvg-logo="http://live.artvisi.or.id/logo/rodja.png",RODJA TV
+#EXTINF:-100 group-title="Religi" tvg-logo="http://live.artvisi.or.id/logo/rodja.png",RODJA TV
 https://h1.intechmedia.net/intech/ch26.m3u8
 
 
-#EXTINF:-100 group-title="Reliji" tvg-logo="http://live.artvisi.or.id/logo/rodja.png",RODJA TV (Backup)
+#EXTINF:-100 group-title="Religi" tvg-logo="http://live.artvisi.or.id/logo/rodja.png",RODJA TV (Backup)
 https://tv.rodja.live/live/ngrp:rodja_all/playlist.m3u8
 
 
-#EXTINF:-101 group-title="Reliji" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/makkah.png",MAKKAH TV
+#EXTINF:-101 group-title="Religi" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/makkah.png",MAKKAH TV
 http://210.210.155.35/qwr9ew/s/s28/01.m3u8
 
 
-#EXTINF:-102 group-title="Reliji" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/medina.png",MADINAH TV
+#EXTINF:-102 group-title="Religi" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/medina.png",MADINAH TV
 http://210.210.155.35/qwr9ew/s/s27/01.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/0Q5wbRs1/AL-SUNNAH-AL-NABAWIYAH.png" group-title="Religi",Al Sunnah An Nabawiyyah
+http://m.live.net.sa:1935/live/sunnah/chunklist_w938352387.m3u8
 
-#EXTINF:-103 group-title="Reliji" tvg-logo="http://live.artvisi.or.id/logo/surautv.png",SURAU TV
+#EXTINF:-1 tvg-id="alquran" tvg-logo="https://i.postimg.cc/rwxtdrjC/1591200820461.png" group-title="Religi",AL Quran AL Kareem 
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=ffd67d44870fda644560c47682a87a73&cdy=98f13708210194c475687be6106a3b84dfdded94c48ea6229c48edefa9ec1c9f
+
+#EXTINF:-103 group-title="Religi" tvg-logo="http://live.artvisi.or.id/logo/surautv.png",SURAU TV
 https://h1.intechmedia.net/intech/ch3.m3u8
 
 
-#EXTINF:-103 group-title="Reliji" tvg-logo="http://live.artvisi.or.id/logo/surautv.png",SURAU TV (Backup)
+#EXTINF:-103 group-title="Religi" tvg-logo="http://live.artvisi.or.id/logo/surautv.png",SURAU TV (Backup)
 http://119.235.249.58:1935/surautv/live/chunklist_w121016467.m3u8
 
 
-#EXTINF:-104 group-title="Reliji" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/ashiiltv.png",ASHIIL TV
+#EXTINF:-104 group-title="Religi" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/ashiiltv.png",ASHIIL TV
 https://h1.intechmedia.net/intech/ch2.m3u8
 
 
-#EXTINF:-104 group-title="Reliji" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/ashiiltv.png",ASHIIL TV (Backup)
+#EXTINF:-104 group-title="Religi" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/ashiiltv.png",ASHIIL TV (Backup)
 http://wowza60.indostreamserver.com:1935/ashiiltv2/android/playlist.m3u8
 
 
-#EXTINF:-105 group-title="Reliji" tvg-logo="http://live.artvisi.or.id/logo/alimantv.png",AL IMAN TV
+#EXTINF:-105 group-title="Religi" tvg-logo="http://live.artvisi.or.id/logo/alimantv.png",AL IMAN TV
 https://h1.intechmedia.net/intech/ch9.m3u8
 
 
-#EXTINF:-105 group-title="Reliji" tvg-logo="http://live.artvisi.or.id/logo/alimantv.png",AL IMAN TV (Backup)
+#EXTINF:-105 group-title="Religi" tvg-logo="http://live.artvisi.or.id/logo/alimantv.png",AL IMAN TV (Backup)
 http://tv.aliman.id:1935/aliman/HD/chunklist_w1595058791.m3u8
 
 
-#EXTINF:-106 group-title="Reliji" tvg-logo="https://live.artvisi.or.id/logo/insantv.png",INSAN TV
+#EXTINF:-106 group-title="Religi" tvg-logo="https://live.artvisi.or.id/logo/insantv.png",INSAN TV
 https://h1.intechmedia.net/intech/ch1.m3u8
 
 
-#EXTINF:-107 group-title="Reliji" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/ahsan.png"",AHSAN TV
+#EXTINF:-107 group-title="Religi" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/ahsan.png"",AHSAN TV
 https://h1.intechmedia.net/intech/ch4.m3u8
 
 
-#EXTINF:-107 group-title="Reliji" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/ahsan.png",AHSAN TV (Backup)
+#EXTINF:-107 group-title="Religi" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/ahsan.png",AHSAN TV (Backup)
 http://119.82.224.75:1935/live/ahsantv/chunk.m3u8
 
 
-#EXTINF:-108 group-title="Reliji" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/367F1A03-8317-448A-B336-CB5E0B14BD78.jpeg",ALFURQON TV
+#EXTINF:-108 group-title="Religi" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/367F1A03-8317-448A-B336-CB5E0B14BD78.jpeg",ALFURQON TV
 https://h1.intechmedia.net/intech/ch24.m3u8
 
 
-#EXTINF:-109 group-title="Reliji" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/HIJRAH TV.jpg",HIJRAH TV
+#EXTINF:-109 group-title="Religi" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/HIJRAH TV.jpg",HIJRAH TV
 https://h1.intechmedia.net/intech/ch8.m3u8
 
 
-#EXTINF:-110 group-title="Reliji" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/sjp tv.png",SJP TV
+#EXTINF:-110 group-title="Religi" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/sjp tv.png",SJP TV
 https://h1.intechmedia.net/intech/ch17.m3u8
 
 
-#EXTINF:-111 group-title="Reliji" tvg-logo="http://live.artvisi.or.id/logo/niagatv.png",NIAGA TV
+#EXTINF:-111 group-title="Religi" tvg-logo="http://live.artvisi.or.id/logo/niagatv.png",NIAGA TV
 https://h1.intechmedia.net/intech/ch10.m3u8
 
 
-#EXTINF:-112 group-title="Reliji" tvg-logo="http://live.artvisi.or.id/logo/niagatv.png" ,NIAGA TV (Backup)
+#EXTINF:-112 group-title="Religi" tvg-logo="http://live.artvisi.or.id/logo/niagatv.png" ,NIAGA TV (Backup)
 http://119.235.249.58:1935/niagatv/live/playlist.m3u8
 
 
-#EXTINF:-113 group-title="Reliji" tvg-logo="https://live.artvisi.or.id/logo/izzahtv.png",IZZAH TV
+#EXTINF:-113 group-title="Religi" tvg-logo="https://live.artvisi.or.id/logo/izzahtv.png",IZZAH TV
 https://h1.intechmedia.net/intech/ch7.m3u8
 
 
-#EXTINF:-113 group-title="Reliji" tvg-logo="https://live.artvisi.or.id/logo/izzahtv.png",IZZAH TV (Backup)
+#EXTINF:-113 group-title="Religi" tvg-logo="https://live.artvisi.or.id/logo/izzahtv.png",IZZAH TV (Backup)
 https://streaming.radiosalamjambi.com/izzahtv.m3u8
 
 
-#EXTINF:-114 group-title="Reliji" tvg-logo="https://live.artvisi.or.id/logo/muadztv.png",MUADZ TV
+#EXTINF:-114 group-title="Religi" tvg-logo="https://live.artvisi.or.id/logo/muadztv.png",MUADZ TV
 https://h1.intechmedia.net/intech/ch5.m3u8
 
 
-#EXTINF:-114 group-title="Reliji" tvg-logo="https://live.artvisi.or.id/logo/muadztv.png",MUADZ TV (Backup)
+#EXTINF:-114 group-title="Religi" tvg-logo="https://live.artvisi.or.id/logo/muadztv.png",MUADZ TV (Backup)
 http://wowza60.indostreamserver.com:1935/muadztv/live/chunklist_w1362705145.m3u8
 
 
-#EXTINF:-115 group-title="Reliji" tvg-logo="https://live.artvisi.or.id/logo/mgitv.png",MGI TV
+#EXTINF:-115 group-title="Religi" tvg-logo="https://live.artvisi.or.id/logo/mgitv.png",MGI TV
 https://h1.intechmedia.net/intech/ch25.m3u8
 
 
-#EXTINF:-115 group-title="Reliji" tvg-logo="https://live.artvisi.or.id/logo/mgitv.png",MGI TV (Backup)
+#EXTINF:-115 group-title="Religi" tvg-logo="https://live.artvisi.or.id/logo/mgitv.png",MGI TV (Backup)
 https://tv.rodja.live/tasik/mgitv/playlist.m3u8
 
 
-#EXTINF:-115 group-title="Reliji" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/radio hidayah.png",HIDAYAH TV
+#EXTINF:-115 group-title="Religi" tvg-logo="https://github.com/Demila-rumah-jilbab/furqantv/raw/main/radio hidayah.png",HIDAYAH TV
 https://tv.rodja.live/hidayah/streaming/chunklist_w1269386482.m3u8
 
 
-#EXTINF:-116 group-title="Reliji" tvg-logo="https://live.artvisi.or.id/logo/binbaztv.png",BINBAZ TV
+#EXTINF:-116 group-title="Religi" tvg-logo="https://live.artvisi.or.id/logo/binbaztv.png",BINBAZ TV
 https://h1.intechmedia.net/intech/ch22.m3u8
 
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/SsNXtthD/NABAWI-TV.png" group-title="Religi",NABAWI TV
+http://stream1.ninmedia.tv:1935/nabawitv/nabawitv_360p/chunklist_w403146672.m3u8
+
+#EXTINF:-1 tvg-logo="https://live.alwafatarim.tv/assets/images/logo.png" group-title="Religi",ALWAFA TV
+https://am.siar.us/ammedia/live/chunks.m3u8
+https://v2.siar.us:443/ammedia/live/ammedia/144/chunks.m3u8
+
+#EXTINF:-1 tvg-logo="https://i.postimg.cc/wMMm3447/NU-CHANNEL.png" group-title="Religi",NU Channel
+https://bravo.kugo.id/nuchannel/udp.stream_360p/playlist.m3u8
 
 
 
-@@@@@@@ MALAYSIA @@@@@@@
+
+<----------------------------------- MALAYSIA Channel --------------------------------------->
 
 
 #EXTM3U
@@ -1640,7 +1703,7 @@ https://awanitv.akamaized.net/hls/live/2017836/LiveTV1/index.m3u8
 
 
 
-******* LOKAL *******
+<----------------------------------- LOKAL Channel --------------------------------------->
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
