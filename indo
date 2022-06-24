@@ -26,6 +26,28 @@
 
 
 
+<----------------------------------- PIALA PRESIDEN --------------------------------------->
+
+#EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="PIALA PRESIDEN",Pilih salah satu server dibawah
+https://dl.dropboxusercontent.com/s/j3tds1788a82q96/YA%20LAL%20WATHON%20Shubbanul%20Wathon_480p.mp4?dl=0.m3u8
+
+#EXTINF:-1   tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="PIALA PRESIDEN",indosiar_liga1_2
+https://bagoltvku.my.id/PUNYA-MVTV/master.m3u8
+
+#EXTINF:-1   tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="PIALA PRESIDEN",indosiar(kVision)
+http://203.77.246.50:5000/udp/239.1.1.110:5000
+
+#EXTINF:-1   tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="PIALA PRESIDEN",INDOSIAR_seulangatv
+https://seulangatv.xyz/vd/get.m3u8?id=205
+
+#EXTINF:-1 tvg-id="indosiar.id" tvg-name="[ID] Indosiar" tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="PIALA PRESIDEN",Indosiar
+https://ktiptv.cf:443/48268/48268/73617
+
+#EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" tvg-id=".SHINTA" tvg-name"[CODAY] Indosiar _VIDIO" group-title="PIALA PRESIDEN",Indosiar_VIDIO
+http://hi.hi-back.masuk.web.id/c.m3u8?shinta=2022&coday=f846bc691110108f73cb55c2f4049864&cdy=eae27d77ca20db309e056e3d2dcd7d69446503011668def857b1c03bafabba51
+
+
+
 <----------------------------------- TV NASIONAL INDONESIA --------------------------------------->
 
 #EXTINF:-1 tvg-logo="https://avatars.githubusercontent.com/u/107798941?s=40&v=4" group-title="TV Nasional Indonesia",Opo Jare Eson
@@ -72,14 +94,11 @@ http://210.210.155.35/qwr9ew/s/s03/01.m3u8
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:0 tvg-id="TransTV.id" tvg-name="Trans TV" tvg-url="https://yamcode.com/raw/transtv-guide" tvg-logo="https://cdn.kibrispdr.org/data/logo-trans-tv-png-2.png" group-title="TV Nasional Indonesia",Trans TV
-https://liveanevia.mncnow.id/live/eds/TransTV/sa_dash_vmx/TransTV.mpd
+#EXTINF:-1 group-title="TV Nasional Indonesia" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_87.png",Trans TV
+https://liveanevia.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
 
-
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NjcwYWI2ZGEtYzE4Yi0zZWFlLTljOWYtZGEzOGIwYWFjN2I1
-#EXTINF:0 tvg-id="="Trans7.id" tvg-name="Trans 7" tvg-url="https://yamcode.com/raw/trans7-guide" tvg-logo="http://dusktill.masuk.web.id/img/trans7.png" group-title="TV Nasional Indonesia",Trans 7
-https://liveanevia.mncnow.id/live/eds/Trans7/sa_dash_vmx/Trans7.mpd
+#EXTINF:-1 group-title="TV Nasional Indonesia" tvg-logo="https://www.mncvision.id/userfiles/image/channel/channel_110.png",Trans 7
+http://rr.dens.tv/h/h11/index.m3u8
 
 
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
